@@ -1,0 +1,75 @@
+
+body {
+    background-color: rgb(240, 95, 240);
+    margin: 0%;
+    padding: 0px;
+}
+ .logo-img {
+    width: 500px; /* Ajusta el ancho del logo según tu preferencia */
+    padding: 20px; /* Espacio interior del contenedor */
+    height: 200px;
+}
+nav{
+    position: absolute;
+    top: 40px;
+    right: 400px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+     }
+nav a{
+    text-transform:inherit;
+    color: #dd0101;
+    font-weight: bold;
+    font-size: 130px;
+    text-decoration:none;
+}
+nav a:hover{
+    color:blue;
+    text-decoration:underline;
+    
+ }
+ .ofertas{
+    list-style-type: none; /* Quita los estilos de lista (viñetas/numeración) */
+    padding: 0; /* Elimina el padding predeterminado de la lista */
+    display: flex; /* Usa flexbox para alinear elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si es necesario */
+    gap: 20px; /* Espacio entre los elementos li */
+    margin: 0 4.5%;
+    overflow: hidden; 
+}
+.ofertas.li{ 
+    width: 50%; /* Ancho deseado para cada elemento li */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+    margin-top: auto; /*espacio entre un elemento (arriba y abajo )*/
+}
+.ofertas h2{
+    font-size: 30px;
+    font-weight: bold;   
+}
+.ofertas li:hover h2{
+    font-size: 33px;
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */  
+}
+.ofertas-descripción{
+    font-size: 18px;
+}
+.ofertas-talla{
+    font-size: 18px;
+    color: blue;
+}
+.ofertas-precio{
+    font-size: 18px;
+    font-weight: bold;
+    color: #dd0101; 
+}
+img{
+    width: 250px;
+    height: 300px;
+    transition: transform 0.3s ease; /* Suaviza la transición del zoom */
+}
+img:hover {
+ transform: scale(1.2); /* Ajusta el valor para definir cuánto quieres que se agrande */
+}
+

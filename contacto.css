@@ -1,0 +1,55 @@
+body {
+    background-color:rgb(214, 213, 206);
+    margin: 0%;
+    padding: 0px;
+    }
+
+ .logo-img {
+    width: 500px; /* Ajusta el ancho del logo según mi preferencia */
+    margin-top: 0px;
+   height: 200px;
+}
+nav{
+    position: absolute;
+    top: 40px;
+    right: 400px;
+}
+nav li{
+    display: inline;
+
+}
+nav a{
+    text-transform:inherit;
+    color: #dd0101;
+    font-weight: bold;
+    font-size: 130px;
+    text-decoration:none;
+}
+nav a:hover{
+    color:black;
+    text-decoration:underline;
+ }
+ .contacto{
+    list-style-type: none; /* Quita los estilos de lista (viñetas/numeración) */
+    padding: 16px; /* Elimina el padding predeterminado de la lista */
+    display: flex; /* Usa flexbox para alinear elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si es necesario */
+    gap: 70px; /* Espacio entre los elementos li */
+    margin: 0 1.5%;
+}
+.contacto h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contacto li:hover h2{
+    font-size: 40px;  
+    color: #100ddd;
+}
+.contacto-enlace{
+    font-size: 18px;  
+}
+ img{
+    width: 250px;
+    height: 280px;
+   
+}

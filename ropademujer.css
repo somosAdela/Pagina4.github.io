@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(158, 160, 153);/* color del fondo de la página  */
+}
+nav{
+    position: absolute;
+    top: 40px;
+    right: 400px;
+}
+nav li{
+    display: inline;/* servi para que el menú no aparece la viñeta en la pagina */
+}
+nav a{
+    text-transform:inherit;
+    color: #21148f;
+    font-weight: bold;
+    font-size: 80px;
+    text-decoration:none;
+    padding: 20px;
+}
+nav a:hover{
+    color:hsl(0, 0%, 5%);
+    text-decoration:underline;
+ }
+ .ropa{
+    list-style-type: none; /* Quita los estilos de lista (viñetas/numeración) */
+    padding: 16px; /* Elimina el padding predeterminado de la lista */
+    display: flex; /* Usa flexbox para alinear elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si es necesario */
+    gap: 20px; /* Espacio entre los elementos li */
+    margin: 0 1.5%;
+    margin-top: 200px;
+}
+.ropa.li{
+   position: relative; /* Necesario para el efecto hover */
+}
+.ropa h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ropa li:hover h2{
+    font-size: 33px;
+    margin-bottom: 40px; /* Espacio debajo del texto */
+}
+.ropa-descripción{
+    font-size: 18px;  
+   
+}
+.ropa-talla{
+    font-size: 18px;
+    color: blue;
+}
+.ropa-precio{
+    font-size: 18px;
+    font-weight: bold;
+    color: #dd0101;
+}
+img{
+    width: 300px;
+    height: 400px;
+    transition: transform 0.3s ease; /* Suaviza la transición del zoom */
+}
+img:hover {
+ transform: scale(1.2); /* Ajusta el valor para definir cuánto quieres que se agrande */
+}
+
+

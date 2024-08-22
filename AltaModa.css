@@ -1,0 +1,59 @@
+
+body {
+    background-color: rgb(179, 198, 207);/* color de fondo */
+    }
+
+ .logo-img {
+    width: 300px; /* Ajusta el ancho del logo según a mi preferencia */
+    padding: 5px; /* Espacio interior del contenedor */
+    margin-top: 0px;/*  gestiona la disposición y el espaciado de los elementos y es el logo*/
+    transition: transform 0.3s ease; /* Ajusta la duración de la transición */
+}
+img {
+    transition: transform 0.3s ease; /* Suaviza la transición del zoom */
+    margin: 5px; /* Añade espacio alrededor de cada imagen */
+
+}
+
+img:hover {
+    transform: scale(1.2); /* Ajusta el valor para definir cuánto quiero que se agrande */
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right:370px;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: #0f0f0f;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+nav a:hover{
+    color:#ee048c;
+  
+ 
+ }
+ .titulo{
+    font-size: 24px;
+    color: rgb(5, 18, 90);
+    text-align: center;
+}
+.contenido{
+    font-size: 18px;
+    color: #0f0f0f;
+    margin: 10px;
+    margin-bottom: 50px; /* Espacio debajo del texto */
+}
+.fotos{
+    height: 400px; /* Establece la misma altura para todas las imágenes */
+    width: 300px; /* Permite que el ancho se ajuste automáticamente para mantener la proporción */
+    display: inline-block; /* Asegura que las imágenes se comporten como bloques */
+    margin: 17px;/* espacio entre las imagenes*/
+}
